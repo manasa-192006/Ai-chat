@@ -90,6 +90,12 @@ reply="I was created by sharath.";
 if(input.toLowerCase().includes("who im"))
 reply="you are a human.";
 
+  if(input.toLowerCase().includes("who are u"))
+reply="i am AI";
+  
+  if(input.toLowerCase().includes("i love u"))
+reply="love u too";
+  
 chat.innerHTML += "<p><b>Bot:</b> " + reply + "</p>";
 
 document.getElementById("userInput").value="";
